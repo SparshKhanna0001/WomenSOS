@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Locations</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center;">User Locations and Emergency Contacts</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Mobile Number</th>
+        <th>Emergency Contact Number</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% if (users.length > 0) { %>
+        <% users.forEach(function(user) { %>
+            <tr>
+                <td><%= user.name %></td>
+                <td><%= user.mobile_number %></td>
+                <td><%= user.emergency_contact_number %></td>
+                <td><%= user.latitude %></td>
+                <td><%= user.longitude %></td>
+            </tr>
+        <% }) %>
+    <% } else { %>
+        <tr>
+            <td colspan="5" style="text-align: center;">No data available</td>
+        </tr>
+    <% } %>
+    </tbody>
+</table>
+</body>
+</html>
