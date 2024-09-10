@@ -13,7 +13,7 @@ Target Users: Women.
 - **Frontend**: e.g., EJS Engine (css,javascript)
 - **Backend**: e.g., Node.js, express.js
 - **Database**: e.g., MySQL
-- **Other Technologies**: e.g., nx.
+- **Other Technologies**: e.g., nx, leaflet.js (for map), twilio (for SMSs)
 
 ## How to Run the App
 1. Clone the repository.
