@@ -30,8 +30,8 @@ Target Users: Women.
 - The map on the main page does will display the hospitals nearby when zoomed in as an added functionality.
 
 ## Publicly Accessible Artifacts
-- **Web App URL**: [Link to deployed web app]
-- **Mobile App**: [Instructions to generate and install mobile app bundle, if applicable]
+- **Web App URL**: https://sos-pink.vercel.app/
+- **Mobile App**: PWA 
 
 ## Additional Notes
 - Any additional setup or configuration information
